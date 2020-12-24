@@ -1,0 +1,35 @@
+header {
+    padding: 20px 0 20px 0;
+    background-color: white;
+}
+header .logo {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 42px;
+    text-transform: uppercase;
+    margin: 0;
+}
+header .list,
+header .icons,
+header .container {
+  display: flex;
+}
+
+header .list li {
+	margin-right: 30px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  text-transform: uppercase;
+}
+header .list li:last-child {
+  margin-right: 0;
+}
+header .icons li {
+  margin-right: 45px;
+}
+
+
+header .icons img {
+	width: 18px;
+}

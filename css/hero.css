@@ -1,0 +1,41 @@
+.hero {
+    position: relative;
+    background: url(../images/models.png) top no-repeat;
+    background-size: cover;
+    height: calc(100vh - 82px);
+}
+.hero__wrapper {
+    position: absolute;
+    right: 15%;
+    bottom: 10%;
+}
+
+.hero .subtitle, 
+.hero .title,
+.hero .description {
+  margin: 0;
+}
+.hero .subtitle ,.description{
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+}
+.hero .description{
+  margin-bottom: 30px;
+}
+.hero .title {
+  font-weight: bold;
+  font-size: 80px;
+  line-height: 120px;
+}
+.hero .button {
+  display: inline-block;
+  padding:  0 28px;
+  background-color: #22262a;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.hero .button + .button{
+  margin-left: 34px;
+}

@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins' , sans-serif;
+    font-style: normal;
+    color: #22262a;
+}
+  
+.container {
+    max-width: 1128px;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+ul {
+    padding: 0;
+    margin: 0;
+}
+li {
+    list-style: none;
+}
+
+.p-15 {
+    padding: 15px;
+}
+  
+  
+.m-15 {
+    margin: -15px;
+}
+
+.row {
+    display: flex;
+}
+.col-6  {
+    width: 50%;
+}
+
+.col-3 {
+    width: 25%;
+}  

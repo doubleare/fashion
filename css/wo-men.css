@@ -1,0 +1,48 @@
+.wo-men {
+    padding: 20px 0 86px 0;
+    margin-bottom: 50px;
+}
+.wo-men__top {
+    text-align: center;
+}
+.wo-men__title {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 1;
+}
+.wo-men__description {
+    margin: 15px 0 65px 0;
+    line-height: 1;
+    font-weight: normal;
+    font-size: 15px;
+}
+.wo-men__img {
+    max-width: 100%;
+}
+
+.wo-men__brand {
+    margin-top: 38px;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 1;
+}
+
+.wo-men__details {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 1;
+    margin: 8px 0;
+}
+.wo-men__old-price {
+    text-decoration: line-through;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+}
+.wo-men__new-price {
+    margin-left: 20px;
+    font-size: 15px;
+    line-height: 22px;
+    font-weight: 500;
+    color: #cf2929;
+}
