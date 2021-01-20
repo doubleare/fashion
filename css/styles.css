@@ -45,8 +45,12 @@
     font-weight: normal;
     font-size: 15px;
     line-height: 22px;
-    border-bottom: 1px solid #22262a;
     padding-bottom: 5px;
     text-decoration: none;
     color: #22262A;
+    transition: 0.4s;
+}
+
+.styles__a:hover {
+    border-bottom: 1px solid #22262a;
 }

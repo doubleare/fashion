@@ -22,6 +22,13 @@ header .list li {
   line-height: 27px;
   text-transform: uppercase;
 }
+.header__link {
+  transition: 0.6s;
+}
+.header__link:hover {
+  border-bottom: 1px solid #22262a;
+  
+} 
 header .list li:last-child {
   margin-right: 0;
 }

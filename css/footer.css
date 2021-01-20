@@ -98,7 +98,11 @@
     font-weight: normal;
     font-size: 15px;
     line-height: 22px;
+    transition: 0.3s;
 }
+.footer__link:hover {
+    text-decoration: underline;
+} 
 .footer__end {
     background-color: #E7F5F8;
     text-align: center;

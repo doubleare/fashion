@@ -40,5 +40,10 @@
     line-height: 27px;
     text-align: center;
     padding: 4px 26px;
+    transition: 0.4s;
+}
+.categories .name:hover {
+    background-color: #22262a;
+    color: #ffffff;
 }
   
